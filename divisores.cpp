@@ -4,6 +4,31 @@
 
 int main(){
 
+int number;
+
+printf("Ingrese el número al que se le calcularán sus divisores:\n");
+scanf("%i", &number);
+
+printf("Los divisores son: \n ");
+
+
+for(int i = 1; i <= number; i++){
+
+    if (number%i == 0){
+        printf("%i \n", i);
+    }
+
+/*
+    if (number%i == 0){
+        printf("%i", number);
+    }
+    else {
+        continue;
+    }
+
+*/
+
+}
 
 return 0;
 }

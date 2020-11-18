@@ -9,7 +9,7 @@ printf("ingrese dos numeritos \n");
 scanf("%i", &x);
 scanf("%i", &y);
 
-if (x<y){
+if (x < y){
 printf("\n De los numeritos ingresados, el mayor es %i", y);
 }
 
